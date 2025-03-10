@@ -29,13 +29,11 @@ class ProductAdapter(private var products: List<Product>): RecyclerView.Adapter<
 
         override fun getItemCount(): Int = products.size
 
+    //actualizar productos
+    fun updateProducts(newProducts: List<Product>) {
+        products = newProducts
+        notifyDataSetChanged()
+
     }
-
-
-//    //actualizar lista de peliculas
-//    fun updateMovies(newMovies: List<Movie>) {
-//        movies = newMovies
-//        notifyDataSetChanged()
-//
-//    }
+    }
 

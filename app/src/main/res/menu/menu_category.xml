@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_electronica"
+        android:title="Electronica"/>
+    <item
+        android:id="@+id/menu_joyeria"
+        android:title="Joyeria"/>
+    <item
+        android:id="@+id/menu_ropaHombre"
+        android:title="Ropa Hombre"/>
+    <item
+        android:id="@+id/menu_ropaMujer"
+        android:title="Ropa Mujer"/>
+
+
+</menu>
